@@ -1,3 +1,4 @@
+const API_URL = import.meta.env.VITE_API_URL;
 import { useState } from 'react';
 
 const EMPTY = { name: '', email: '', phone: '', company: '' };

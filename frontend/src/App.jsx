@@ -1,3 +1,4 @@
+const API_URL = import.meta.env.VITE_API_URL;
 import { Navigate, Route, Routes } from 'react-router-dom';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider } from './context/AuthContext';

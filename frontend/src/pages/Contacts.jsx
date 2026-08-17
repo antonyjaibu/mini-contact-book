@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL;
+
 import { useEffect, useMemo, useState } from 'react';
 import ContactDetails from '../components/ContactDetails';
 import ContactForm from '../components/ContactForm';

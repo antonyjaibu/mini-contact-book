@@ -133,8 +133,8 @@ SIMPLE_JWT = {
 # CORS - allow the Vite dev server to talk to the API
 CORS_ALLOWED_ORIGINS = os.environ.get(
     'CORS_ALLOWED_ORIGINS',
-    'http://localhost:5173;http://127.0.0.1:8000',
-    "https://mini-contact-book.vercel.app"
+    'http://localhost:5173;http://127.0.0.1:8000;https://mini-contact-book.vercel.app'
+    
 ).split(';')
 
 CORS_ALLOW_CREDENTIALS = True
